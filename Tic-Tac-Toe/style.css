@@ -14,6 +14,28 @@ body{
     display: flex;
 }
     
+#reset-btn {
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+  }
+  
+  #new-btn {
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+  }
+
+  .hide {
+    display: none;
+  }  
+
 .game{
     height: 60vmin;
     width: 60vmin;
@@ -28,6 +50,7 @@ body{
     color: #101419;
     height: 18vmin;
     width: 18vmin;
+    font-size: 2rem;
     border: none;
     border-radius: 2vmin;
 }
